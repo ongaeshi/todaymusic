@@ -10,9 +10,9 @@ layout: default
     {% endif %}
 
     <!-- {{ page.date | date_to_string }} -->
-    <!-- {{ page.date | date: "%Y-%m-%d" }} -->
+    {{ page.date | date: "%Y-%m-%d" }}
     <!-- {{ page.date | date: "%Y/%m/%d" }} -->
-    {{ page.date | date: "%Y年%m月%d日" }}
+    <!-- {{ page.date | date: "%Y年%m月%d日" }} -->
 
     {% if page.next.url %}
       <a class="next" href="{{site.baseurl}}{{page.next.url}}">next&raquo;</a>
