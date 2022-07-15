@@ -2,7 +2,7 @@
 title:               "day"
 tagline:             "A simple blog"
 description:         'You can only write one article a day. GitHub <a href="https://github.com/ongaeshi/day">ongaeshi/day</a>.'
-url:                 https://ongaeshi.github.com
+url:                 https://ongaeshi.github.io
 baseurl:             "/day"
 paginate:            30
 permalink:           pretty
