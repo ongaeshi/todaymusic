@@ -10,10 +10,12 @@ timezone:            Asia/Tokyo
 
 # About/contact
 author:
-  name:              ongaeshi
-  url:               https://ongaeshi.me
-  email:             ongaeshi0621@gmail.com
-twitter_username:    ongaeshi
+  name:              yourname
+  url:               https://yourname.example.com
+  email:             youname@example.com
+
+# Twitter card
+# twitter_username:    yourname
 
 # Gems
 plugins:
