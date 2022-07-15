@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">&laquo;prev</a>
+    {% endif %}
+
+    <!-- {{ page.date | date_to_string }} -->
+    <!-- {{ page.date | date: "%Y-%m-%d" }} -->
+    <!-- {{ page.date | date: "%Y/%m/%d" }} -->
+    {{ page.date | date: "%Y年%m月%d日" }}
+
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">next&raquo;</a>
+    {% endif %}
+  </span>
+  {{ content }}
+</div>
+
