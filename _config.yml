@@ -1,9 +1,9 @@
 # Setup
 title:               "today music"
 tagline:             "今日聞いた音楽"
-description:         'その日に聞いた音楽を紹介します。'
-url:                 https://ongaeshi.github.io
-baseurl:             "/todaymusic"
+description:         'その日に聞いた音楽を記録'
+url:                 https://todaymusic.ongaeshi.me
+baseurl:             ""
 paginate:            30
 permalink:           pretty
 timezone:            Asia/Tokyo
