@@ -1,21 +1,21 @@
 # Setup
-title:               "day"
-tagline:             "A simple blog"
-description:         'You can only write one article a day. GitHub <a href="https://github.com/ongaeshi/day">ongaeshi/day</a>.'
+title:               "today music"
+tagline:             "今日聞いた音楽"
+description:         'その日に聞いた音楽を紹介します。'
 url:                 https://ongaeshi.github.io
-baseurl:             "/day"
+baseurl:             "/todaymusic"
 paginate:            30
 permalink:           pretty
 timezone:            Asia/Tokyo
 
 # About/contact
 author:
-  name:              yourname
-  url:               https://yourname.example.com
-  email:             youname@example.com
+  name:              ongaeshi
+  url:               https://ongaeshi.me
+  email:             ongaeshi0621@gmail.com
 
 # Twitter card
-# twitter_username:    yourname
+twitter_username:    ongaeshi
 
 # Gems
 plugins:
