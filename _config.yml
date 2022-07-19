@@ -1,8 +1,8 @@
 # Setup
-title:               "today music"
-tagline:             "今日聞いた音楽"
-description:         'その日に聞いた音楽を記録'
-url:                 https://todaymusic.ongaeshi.me
+title:               "today"
+tagline:             "今日触ったもの"
+description:         'その日の漫画/音楽/動画/ゲームなどを記録'
+url:                 https://today.ongaeshi.me
 baseurl:             ""
 paginate:            30
 permalink:           pretty
